@@ -9,10 +9,7 @@ var sketch = (p: p5) => {
     p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
-  p.draw = () => {
-    p.background(200);
-    p.print(p.frameCount);
-  };
+  p.draw = () => {};
 };
 
 var sketchP = new p5(sketch);
